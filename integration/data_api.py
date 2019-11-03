@@ -5,10 +5,10 @@ https://openapi.planday.com/scheduling/v1.0/shifts
 
 """
 
-import requests
-import logging
 import datetime
+import logging
 
+import requests
 
 REFRESH_URL = 'https://openapi-login.planday.com/connect/token'
 PUNCH_CLOCK_URL = 'https://openapi.planday.com/scheduling/v1.0/shifts'

@@ -1,9 +1,11 @@
+import datetime
 from unittest import TestCase
-import integration.data_api
+
 import mock
 import requests
+
+import integration.data_api
 import tests.integration.test_data
-import datetime
 
 
 class TestPlandayData(TestCase):
