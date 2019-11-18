@@ -77,7 +77,7 @@ class PlandayData(object):
         for date in dates:
             if not retrieve_historical and shifts:
                 if max(shifts) >= date:
-                    if enhance:
+                    if enhance and date in shifts:
                         shift_data = shifts[date]
                         shifts[date] = _enhance(shift_data)
                     continue
